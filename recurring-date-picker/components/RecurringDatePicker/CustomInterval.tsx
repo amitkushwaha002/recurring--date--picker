@@ -1,0 +1,1 @@
+// CustomInterval component

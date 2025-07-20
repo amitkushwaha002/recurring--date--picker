@@ -1,0 +1,4 @@
+{
+  "name": "recurring-date-picker",
+  "scripts": { "dev": "next dev", "test": "jest" }
+}
