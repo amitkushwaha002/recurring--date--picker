@@ -2,10 +2,14 @@
 import React from 'react';
 import RecurringDatePicker from '../components/RecurringDatePicker';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <main className="min-h-screen p-4 flex items-center justify-center">
+    <div className="p-4">
+      <h1 className="text-xl font-bold mb-4">Recurring Date Picker Demo</h1>
       <RecurringDatePicker />
-    </main>
+    </div>
   );
-}
+};
+
+export default HomePage;
+
